@@ -133,23 +133,26 @@ border: 1px solid #000;
     color: #434455;
 }
 
+.container-hero {
+    display: flex;
+    align-items: center;
+}
 
 .hero-section {
     background-color: #2E2F42;
-    
-    
 }
 
 .hero-title {
-font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-
-    /* line-height: 60px; */
     line-height: 107%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button {
@@ -157,12 +160,14 @@ font-family: "Roboto", sans-serif;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    
-    /* line-height: 24px; */
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
-    cursor: pointer
+    cursor: pointer;
+    margin-top: 48px;
+    margin-right: 635px;
+    margin-bottom: 188px;
+    margin-left: 636px;
 }
 .features-section-sub {
     font-family: "Roboto", sans-serif;
