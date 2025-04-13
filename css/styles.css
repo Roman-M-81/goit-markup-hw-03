@@ -24,6 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 ul {
     list-style-type: none;
 }
@@ -183,8 +188,8 @@ border: 1px solid #000;
 }
 
 .container-features {
-    width: 1128px;
-    height: 104px;
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 
 .features-section-main {
@@ -192,8 +197,15 @@ border: 1px solid #000;
 }
 
 .features-section-list {
-    width: calc ((100% - 72) /4); 
+    
+    display: flex;
+    gap: 24px
    
+}
+
+.features-li {
+    width: calc ((100% - 72) /4);
+
 }
 
 .features-section-sub {
@@ -219,6 +231,7 @@ border: 1px solid #000;
     color: #434455;
     width: 264px;
     height: 72px;
+    margin-top: 8px;
 }
 
 .our-team {
