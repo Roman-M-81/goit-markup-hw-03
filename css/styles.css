@@ -312,14 +312,25 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
+margin-bottom: 72px;
 }
 .portfolio-list {
     background-color: #FFFFFF;
     flex-wrap: wrap;
+    display: flex;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .portfolio-list-item {
     width: calc((100% - 48) /3);
+    
+}
+
+.portfolio-sub {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 16px;
 }
 
 .portfolio-name {
