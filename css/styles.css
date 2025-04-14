@@ -13,8 +13,13 @@ ol {
     padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block
 }
 
 .container {
@@ -234,6 +239,12 @@ border: 1px solid #000;
     margin-top: 8px;
 }
 
+
+.team-list {
+    display: flex;
+    gap: 24px
+}
+
 .our-team {
     background-color: #F4F4FD;
 }
@@ -249,10 +260,20 @@ border: 1px solid #000;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    padding-top: 120px;
+    padding-bottom: 72px;
 }
 
 .team-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72) /4);
+
+}
+
+.team-list-sub {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
 }
 
 .team-name {
@@ -265,6 +286,7 @@ border: 1px solid #000;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -293,6 +315,11 @@ text-transform: capitalize;
 }
 .portfolio-list {
     background-color: #FFFFFF;
+    flex-wrap: wrap;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48) /3);
 }
 
 .portfolio-name {
