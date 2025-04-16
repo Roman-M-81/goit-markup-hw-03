@@ -68,7 +68,7 @@ color: #2E2F42;
 }
 
 .page-header {
-border: 1px solid #000;
+border: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -97,7 +97,7 @@ border: 1px solid #000;
 } 
 
 .header-link {
-    padding: 24px;
+    padding: 24px 0;
     display: block;
     font-weight: 500;
     font-size: 16px;
