@@ -221,6 +221,19 @@ border-bottom: 1px solid #e7e9fc;
         overflow: hidden;
     }
 
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
+
 
 .features-section-list {
     
@@ -230,7 +243,7 @@ border-bottom: 1px solid #e7e9fc;
 }
 
 .features-li {
-    width: calc ((100% - 72) /4);
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px ;
 
 }
@@ -338,6 +351,12 @@ color: #2e2f42;
 text-transform: capitalize;
 margin-bottom: 72px;
 }
+
+.container-portfolio {
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+}
+
 .portfolio-list {
     background-color: #FFFFFF;
     flex-wrap: wrap;
